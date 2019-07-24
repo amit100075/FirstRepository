@@ -5,9 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {InterceptService} from './intercept.service';
 import { from } from 'rxjs';
+import { ViewComponent } from './view/view.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,
